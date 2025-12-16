@@ -1,0 +1,217 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thomas | Home</title>
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  
+  
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<script>
+  function toggleHeaderBackground() {
+    const header = document.getElementById("main-header");
+    if (window.scrollY > 50) {
+        header.classList.add("scrolled");    // background at the very top
+    } else {
+        header.classList.remove("scrolled"); // transparent when scrolled down
+    }
+  }
+
+  // Run once on load
+  window.addEventListener("DOMContentLoaded", toggleHeaderBackground);
+
+  // Run on scroll
+  window.addEventListener("scroll", toggleHeaderBackground);
+</script>
+
+<body>
+  
+<header id="main-header">
+  <div class="header-container">
+    <div class="logo">
+      <h1>Thomas Shilton</h1>
+    </div>
+
+    <div class="page-title">
+      <h2>Participate</h2> 
+    </div>
+
+    
+    <button class="hamburger" aria-label="Menu">
+      ☰
+    </button>
+
+    <nav class="navbar">
+      <a href="index.html">Home</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="participate.html"><span style="color:orange;">Participate</span></a>
+      <a href="cats.html">Cats</a>
+    </nav>
+  </div>
+</header>
+
+
+<section class="hero">
+<div class="hero-content">
+  <div class="hero-text">
+    <h1>Analysing Player Behaviour<br>in 3D Platformer Games</h1>
+    <p>Participation Info</p>
+
+      <div class="socials">
+        <a href="https://www.youtube.com/@Shiltz" target="_blank"><i class="fab fa-youtube"></i></a>
+        <a href="https://github.com/ShambolicShilton" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://shiltzdev.itch.io/" target="_blank"><i class="fab fa-itch-io"></i></a>
+        <a href="https://www.linkedin.com/in/thomas-shilton-888002234/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="mailto:thomas@shiltz.co.uk"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+
+    <div class="hero-image">
+      <img src="assets/face.jpg" alt="Thomas Shilton">
+    </div>
+
+
+  </div>
+</section>
+
+ 
+  
+<main>
+  <section class="bubble">
+    <h2>Brief</h2>
+    <p>Researcher: Thomas Shilton<br>
+    Email Address: <a href="mailto:your.name@derby.ac.uk">t.shilton1@unimail.derby.ac.uk</a><br>
+University of Derby
+<br><br><br>
+I would like to invite you to take part in this research study. To participate in this study, you must be 18 years of age or older. 
+The aim of this study is to analyse how players interact with 3D platformer games and make decisions while playing. This research seeks to advance the understanding of level design in 3D platformers using quantitative methods. 
+Participation is completely voluntary, and you may withdraw at any point without consequence. All data will be handled in compliance with the General Data Protection Regulations (GDPR). 
+</p>
+  </section>
+
+  <div class="spacer"></div>
+
+  <section class="bubble">
+    <h2>What Happens in the Study:</h2>
+    <p> You will play two different platformer scenarios in Unreal Engine using a controller. The study is expected to take approximately 20 – 30 minutes. 
+    The session will take place in a private computer room at Markeaton Street. During gameplay, the researcher will be nearby but will not directly observe your actions unless help is requested. 
+    Telemetry and gameplay data will be recorded throughout, except when paused. Once both scenarios are completed, the study session will end. You are free to pause the game or stop at any time.</p>
+  </section>
+
+  <div class="spacer"></div>
+
+  <section class="bubble">
+    <h2>What Will Be Recorded:</h2>
+    <p>
+<p style="text-align:left;">-	The in-game movement of your character, captured as coordinates linked to timestamps.</p style="text-align:left;">
+<p style="text-align:left;">-	The time taken to complete both environments.</p style="text-align:left;">
+<p style="text-align:left;">-	The number of collectibles obtained by the player character.</p style="text-align:left;">
+<p style="text-align:left;">-	Interactions with enemies.</p style="text-align:left;">
+<p style="text-align:left;">-	Instances of player damage and deaths.</p style="text-align:left;">
+<p style="text-align:left;">-	Player Respawn Events</p style="text-align:left;"><br><br>
+This data will be used to create a visual map of player movement and behaviour for later analysis.<br><br>
+
+<span style="color:red;">No video or screen recordings of gameplay will be captured at any point.</span style="color:red;">
+</p>
+  </section>
+
+  <div class="spacer"></div>
+
+<section class="bubble">
+  <h2>Data Handling</h2>
+  <p>The data collected in this study will be securely stored and privately linked to you until fully anonymised for analysis. 
+  You have the right to access your data in accordance with GDPR, as well as the right to withdraw or amend it at any time before anonymisation. 
+  Once the data has been anonymised and disseminated, individual contributions can no longer be removed; however, any personal data can still be deleted upon request.<br><br>
+  <span style="color:red;">This website does not store data and will not be affiliated with the project whatsoever and simply serves as an information source for the participant.</span style="color:red;"><p>
+</section>
+
+  <div class="spacer"></div>
+
+<section class="bubble">
+  <h2>Thank you!</h2>
+  <p>If you have any questions or wish to take part, please get in touch using the email address:<br>
+  <a href="mailto:your.name@derby.ac.uk">t.shilton1@unimail.derby.ac.uk</a><br><br>
+
+Thank you for your time and interest in this study.<br><br>
+Best Regards,<br>
+Thomas Shilton
+<p>
+</section>
+
+<div class="spacer"></div>
+
+<div class="spacer"></div>
+
+<footer id="main-footer">
+  <div class="footer-content">
+    <div class="footer-section">
+      <h4>Contact</h4>
+      <p>Email: <a href="mailto:thomas@shiltz.co.uk">thomas@shiltz.co.uk</a></p>
+      <p>GitHub: <a href="https://github.com/ShambolicShilton" target="_blank">ShambolicShilton</a></p>
+      <p>YouTube: <a href="https://www.youtube.com/@Shiltz" target="_blank">@Shiltz</a></p>
+      <p>Itch.io: <a href="https://shiltzdev.itch.io/" target="_blank">shiltzdev</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/thomas-shilton-888002234/" target="_blank">Thomas Shilton</a></p>
+    </div>
+
+    <div class="footer-section">
+      <h4>Site Map</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="participate.html">Participate</a></li>
+        <li><a href="cats.html">Cats</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h4>Source Code</h4>
+      <p><a href="https://github.com/ShambolicShilton" target="_blank">View on GitHub</a></p>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2025 Thomas Shilton. All rights reserved.</p>
+  </div>
+</footer>
+
+<script>
+  // YouTube lazy-load script
+  document.addEventListener("DOMContentLoaded", function() {
+    var youtube = document.querySelectorAll(".youtube");
+    youtube.forEach(function(el) {
+      var source = "https://img.youtube.com/vi/" + el.dataset.id + "/hqdefault.jpg";
+      var image = new Image();
+      image.src = source;
+      image.classList.add("youtube-thumb");
+      el.appendChild(image);
+
+      el.addEventListener("click", function() {
+        var iframe = document.createElement("iframe");
+        iframe.setAttribute("src", "https://www.youtube.com/embed/" + el.dataset.id + "?autoplay=1");
+        iframe.setAttribute("frameborder", "0");
+        iframe.setAttribute("allowfullscreen", "1");
+        iframe.setAttribute("allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture");
+
+        el.innerHTML = "";
+        var wrapper = document.createElement("div");
+        wrapper.classList.add("video-container");
+        wrapper.appendChild(iframe);
+        el.appendChild(wrapper);
+      });
+    });
+  });
+
+  // Hamburger toggle script
+  const hamburger = document.querySelector(".hamburger");
+  const navbar = document.querySelector(".navbar");
+  hamburger.addEventListener("click", () => {
+    navbar.classList.toggle("active");
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,191 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thomas | Home</title>
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  
+  
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<script>
+  function toggleHeaderBackground() {
+    const header = document.getElementById("main-header");
+    if (window.scrollY > 50) {
+        header.classList.add("scrolled");    // background at the very top
+    } else {
+        header.classList.remove("scrolled"); // transparent when scrolled down
+    }
+  }
+
+  // Run once on load
+  window.addEventListener("DOMContentLoaded", toggleHeaderBackground);
+
+  // Run on scroll
+  window.addEventListener("scroll", toggleHeaderBackground);
+</script>
+
+<body>
+  
+<header id="main-header">
+  <div class="header-container">
+    <div class="logo">
+      <h1>Thomas Shilton</h1>
+    </div>
+
+    <div class="page-title">
+      <h2>Cats</h2>
+    </div>
+
+    
+    <button class="hamburger" aria-label="Menu">
+      ☰
+    </button>
+
+    <nav class="navbar">
+      <a href="index.html">Home</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="participate.html"><span style="color:orange;">Participate</span></a>
+      <a href="cats.html">Cats</a>
+    </nav>
+  </div>
+</header>
+
+
+<section class="hero">
+  <div class="hero-content">
+
+    <div class="hero-text">
+      <h1>Thomas Shilton</h1>
+      <p>Undergraduate Student & Games Programmer</p>
+
+      <div class="socials">
+        <a href="https://www.youtube.com/@Shiltz" target="_blank"><i class="fab fa-youtube"></i></a>
+        <a href="https://github.com/ShambolicShilton" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://shiltzdev.itch.io/" target="_blank"><i class="fab fa-itch-io"></i></a>
+        <a href="https://www.linkedin.com/in/thomas-shilton-888002234/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="mailto:thomas@shiltz.co.uk"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+
+    <div class="hero-image">
+      <img src="assets/face.jpg" alt="Thomas Shilton">
+    </div>
+
+
+  </div>
+</section>
+
+  
+<main>
+  <section class="bubble">
+    <h2>About Me</h2>
+    <p>My name is Thomas Shilton and I'm a final year student studying Computer Games Programming (CGP) at the University of Derby.
+ Over the next year, I am focusing on developing a full 3D platformer level,
+diving deep into gameplay mechanics and level design to make a fun and engaging game (and some extras that I can't reveal yet).
+I have worked primarily with C++ and Unreal Engine, though I have also explored Unity and built a small 2D platformer.
+ I enjoy tackling the challenges of games programming, whether that's building complex movement logic or spending hours finding one line of code that makes a plane fly backwards.
+My goal is to broaden my skills beyond Unreal Engine and become a well-rounded games developer.
+Naturally, when I'm not programming, you'll likely find me playing The Legend of Zelda, Minecraft,
+or testing all the ways that Mario Kart can infuriate me - and then inevitably coming back for more!</p>
+  </section>
+
+  <div class="spacer"></div>
+
+  <section class="bubble">
+    <h2>Portfolio</h2>
+    <p>Donec et ultrices quam. Sed sagittis viverra dui, non blandit leo tempus eget. Proin sodales feugiat dui, ut tempor ipsum iaculis quis. Proin tempor vulputate massa nec condimentum. Sed vitae orci in erat feugiat semper vitae a lacus. Phasellus commodo dignissim eros, vitae tincidunt ligula finibus eget. Vivamus suscipit a felis sed vestibulum. Morbi facilisis, est sed mattis posuere, sapien neque feugiat ex, ac volutpat est metus quis magna. Nullam lacinia augue augue, quis ornare augue rhoncus sed. Praesent dapibus, erat venenatis placerat bibendum, ex orci auctor odio, in scelerisque risus mi in sem. Nam cursus augue eu sapien gravida imperdiet. Suspendisse vestibulum ante nec sapien vehicula, ac imperdiet nisl scelerisque. In augue lorem, blandit nec nisi et, iaculis vehicula mauris. Duis vestibulum nulla ut venenatis commodo.</p>
+  </section>
+
+  <div class="spacer"></div>
+
+  <section class="bubble">
+    <h2>Cats</h2>
+    <img src="assets/cat.jpg" alt="Cute cat">
+    <p>Suspendisse non efficitur urna. Nullam vitae nunc facilisis, vehicula arcu in, venenatis magna. Mauris pellentesque ipsum non mi placerat, vel rhoncus nisi euismod. Mauris ac ultricies mauris. Donec tempor nulla sit amet quam commodo rutrum. Fusce tincidunt, massa vel congue iaculis, nisl velit sollicitudin nisi, vitae venenatis eros mauris a quam. Praesent et tincidunt nisl, ac dictum urna.</p>
+  </section>
+
+  <div class="spacer"></div>
+
+<section class="bubble">
+  <h2>My Demo Video</h2>
+  <div class="youtube" data-id="dQw4w9WgXcQ"></div>
+</section>
+
+<div class="spacer"></div>
+
+<div class="spacer"></div>
+
+<footer id="main-footer">
+  <div class="footer-content">
+    <div class="footer-section">
+      <h4>Contact</h4>
+      <p>Email: <a href="mailto:thomas@shiltz.co.uk">thomas@shiltz.co.uk</a></p>
+      <p>GitHub: <a href="https://github.com/ShambolicShilton" target="_blank">ShambolicShilton</a></p>
+      <p>YouTube: <a href="https://www.youtube.com/@Shiltz" target="_blank">@Shiltz</a></p>
+      <p>Itch.io: <a href="https://shiltzdev.itch.io/" target="_blank">shiltzdev</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/thomas-shilton-888002234/" target="_blank">Thomas Shilton</a></p>
+    </div>
+
+    <div class="footer-section">
+      <h4>Site Map</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="participate.html">Participate</a></li>
+        <li><a href="cats.html">Cats</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h4>Source Code</h4>
+      <p><a href="https://github.com/ShambolicShilton" target="_blank">View on GitHub</a></p>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2025 Thomas Shilton. All rights reserved.</p>
+  </div>
+</footer>
+
+<script>
+  // YouTube lazy-load script
+  document.addEventListener("DOMContentLoaded", function() {
+    var youtube = document.querySelectorAll(".youtube");
+    youtube.forEach(function(el) {
+      var source = "https://img.youtube.com/vi/" + el.dataset.id + "/hqdefault.jpg";
+      var image = new Image();
+      image.src = source;
+      image.classList.add("youtube-thumb");
+      el.appendChild(image);
+
+      el.addEventListener("click", function() {
+        var iframe = document.createElement("iframe");
+        iframe.setAttribute("src", "https://www.youtube.com/embed/" + el.dataset.id + "?autoplay=1");
+        iframe.setAttribute("frameborder", "0");
+        iframe.setAttribute("allowfullscreen", "1");
+        iframe.setAttribute("allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture");
+
+        el.innerHTML = "";
+        var wrapper = document.createElement("div");
+        wrapper.classList.add("video-container");
+        wrapper.appendChild(iframe);
+        el.appendChild(wrapper);
+      });
+    });
+  });
+
+  // Hamburger toggle script
+  const hamburger = document.querySelector(".hamburger");
+  const navbar = document.querySelector(".navbar");
+  hamburger.addEventListener("click", () => {
+    navbar.classList.toggle("active");
+  });
+</script>
+</body>
+</html>
+
